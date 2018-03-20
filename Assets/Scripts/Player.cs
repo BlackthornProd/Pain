@@ -37,30 +37,37 @@ public class Player : MonoBehaviour {
 	void FixedUpdate(){
 
 		isGrounded = Physics2D.OverlapCircle(groundPos.position, checkRadius, whatIsGround);
-		
+
 		if(canMove == true){
 			moveInput = Input.GetAxisRaw("Horizontal");
 			rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+		} else {
+			anim.SetBool("IsMoving", false);
+			anim.SetBool("IsJumping", false);
 		}
 	
 
 		if(moveInput != 0){
 			if(timeBtwEffect <= 0){
-			Instantiate(trailEffect, transform.position, Quaternion.identity);
-			timeBtwEffect = startTimeBtwEffect;
-		} else {
-			timeBtwEffect -= Time.deltaTime;
-		}
-			anim.SetBool("IsMoving", true);
-		} else if(moveInput == 0){
-			anim.SetBool("IsMoving", false);
-		}
+				Instantiate(trailEffect, transform.position, Quaternion.identity);
+				timeBtwEffect = startTimeBtwEffect;
+			} else {
+				timeBtwEffect -= Time.deltaTime;
+			}
 
-		if(facingRight == true && moveInput > 0){
-			Flip();
-		} else if(facingRight == false && moveInput < 0){
-			Flip();	
-		}
+			if(canMove == true){
+				anim.SetBool("IsMoving", true);
+			}
+				
+			} else if(moveInput == 0){
+				anim.SetBool("IsMoving", false);
+			}
+
+			if(facingRight == true && moveInput > 0){
+				Flip();
+			} else if(facingRight == false && moveInput < 0){
+				Flip();	
+			}
 
 	}
 

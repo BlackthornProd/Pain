@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6a9e4e25651d61b4ea8034c6bca87631
+timeCreated: 1521555904
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Soft Core
+  fontNames:
+  - Soft Core
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

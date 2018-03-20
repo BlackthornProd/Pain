@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a459ba3a1298e784c9980c4f77f19f95
+timeCreated: 1521556132
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Script Soft
+  fontNames:
+  - Script Soft
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

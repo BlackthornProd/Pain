@@ -143,7 +143,9 @@ MonoBehaviour:
   - Poor little village...
   - Oh well...What is done is done.
   - We'll make up for this mess, one way or another...
+  index: 0
   dialog: {fileID: 1189552008}
+  dialogTwo: 0
 --- !u!4 &22805662
 Transform:
   m_ObjectHideFlags: 0
@@ -1552,7 +1554,9 @@ MonoBehaviour:
   sentences:
   - Look at that lovely little village !
   - So charming...
+  index: 0
   dialog: {fileID: 1189552008}
+  dialogTwo: 0
 --- !u!4 &413845747
 Transform:
   m_ObjectHideFlags: 0

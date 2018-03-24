@@ -7,10 +7,12 @@ public class Letters : MonoBehaviour {
 
 	public string sentence;
 	public string[] sentences;
-	private int index;
+	public int index;
 
 	public Text dialog;
 	private Player player;
+	public Bubble bubble;
+	public bool dialogTwo;
 
 	void Start(){
 		StartCoroutine(Type());
@@ -20,23 +22,37 @@ public class Letters : MonoBehaviour {
 
 	void Update(){
 
-		if(index >= sentences.Length ){
+
+		if(index >= sentences.Length){// character can now move
 			player.canMove = true;
+			Debug.Log("jojojo");
+		
 		} else {
+			Debug.Log("HEOO");
 			player.canMove = false;
+
 		}
 
+		if(Input.GetKeyDown(KeyCode.Space) && index < sentences.Length-1 && dialog.text == sentence){ // say dialog
+			if(dialogTwo == true){
+				bubble.Move();
+			}
 
-		if(Input.GetKeyDown(KeyCode.Space) && index < sentences.Length-1 && dialog.text == sentence){
 			dialog.text = "";
 			index++;
 			sentence = sentences[index];
 			StartCoroutine(Type());
 		} 
 
+
+
 		if(Input.GetKeyDown(KeyCode.Space) && index == sentences.Length -1 && dialog.text == sentence){
 			index++;
 			dialog.text = "";
+			if(dialogTwo == true){
+				bubble.End();
+			}
+
 		}
 	}
 

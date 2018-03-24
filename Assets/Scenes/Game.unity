@@ -6728,7 +6728,9 @@ MonoBehaviour:
   - But I SWEAR I'm the HAPPIEST game object in game !!!
   - You can move me about with the arrow keys !
   - 'Now let nothing stand between me and my destiny : the princess !'
+  index: 0
   dialog: {fileID: 109957606}
+  dialogTwo: 0
 --- !u!1001 &1964505246
 Prefab:
   m_ObjectHideFlags: 0

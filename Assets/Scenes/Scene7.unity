@@ -792,12 +792,17 @@ MonoBehaviour:
   sentences:
   - I'm SO SORRY little ones !
   - I'll make it up to you !
-  - DON'T BE AFRAID !
+  - Don't be... don't be afraid...
   - '...'
   - They hate me...
-  - But... but player it was an accident !
+  - And with reason... but, but player...
   - You... me, we never meant to kill that little fella !
+  - It just... it just happened...
+  - Player if I had a cry animation I would be playing it right now...
+  index: 0
   dialog: {fileID: 600352998}
+  bubble: {fileID: 0}
+  dialogTwo: 0
 --- !u!4 &167128552
 Transform:
   m_ObjectHideFlags: 0
@@ -3513,7 +3518,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 702499084}
   m_LocalRotation: {x: -0, y: -0, z: -0.07911946, w: 0.99686515}
-  m_LocalPosition: {x: 46.34, y: -0.69, z: 0}
+  m_LocalPosition: {x: 46.34, y: -1.74, z: 0}
   m_LocalScale: {x: 0.97970057, y: 0.97970057, z: 0.97970057}
   m_Children: []
   m_Father: {fileID: 735246239}
@@ -8273,7 +8278,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1773736366}
   m_LocalRotation: {x: -0, y: -0, z: 0.0654054, w: 0.99785876}
-  m_LocalPosition: {x: 9.43, y: -0.69, z: 0}
+  m_LocalPosition: {x: 9.43, y: -1.42, z: 0}
   m_LocalScale: {x: 1.1812792, y: 1.1812793, z: 1.1812793}
   m_Children: []
   m_Father: {fileID: 735246239}

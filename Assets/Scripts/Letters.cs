@@ -14,6 +14,8 @@ public class Letters : MonoBehaviour {
 	public Bubble bubble;
 	public bool dialogTwo;
 
+	public bool heroSpeech;
+
 	void Start(){
 		StartCoroutine(Type());
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
@@ -25,6 +27,8 @@ public class Letters : MonoBehaviour {
 
 		if(index >= sentences.Length){// character can now move
 			player.canMove = true;
+			this.enabled = false;
+
 			Debug.Log("jojojo");
 		
 		} else {
@@ -47,6 +51,7 @@ public class Letters : MonoBehaviour {
 
 
 		if(Input.GetKeyDown(KeyCode.Space) && index == sentences.Length -1 && dialog.text == sentence){
+			heroSpeech = true;
 			index++;
 			dialog.text = "";
 			if(dialogTwo == true){

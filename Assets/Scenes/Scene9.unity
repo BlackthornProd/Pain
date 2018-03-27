@@ -1943,6 +1943,7 @@ MonoBehaviour:
   dialog: {fileID: 560374009}
   bubble: {fileID: 171309625}
   dialogTwo: 1
+  heroSpeech: 0
 --- !u!4 &432742829
 Transform:
   m_ObjectHideFlags: 0
@@ -8931,6 +8932,7 @@ MonoBehaviour:
   dialog: {fileID: 560374009}
   bubble: {fileID: 171309625}
   dialogTwo: 0
+  heroSpeech: 0
 --- !u!4 &2000139017
 Transform:
   m_ObjectHideFlags: 0

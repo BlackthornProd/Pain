@@ -9527,7 +9527,7 @@ RectTransform:
   m_GameObject: {fileID: 1704820990}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2670915, y: 1.2670915, z: 1.2670915}
+  m_LocalScale: {x: 1.8678815, y: 1.8678811, z: 1.8678811}
   m_Children: []
   m_Father: {fileID: 17492615}
   m_RootOrder: 1
@@ -10466,14 +10466,17 @@ MonoBehaviour:
   - O NO !
   - CAN YOU PLEASE MOVE ?
   - LITTLE ONES ?
-  - Player... I feel sick.
-  - I'll squash them, there's no avoiding it...
+  - LITTLE ONES PLEASE MAKE SOME SPACE !
+  - Why won't you move ?
+  - Can you move ?
+  - Player ? Player I'll squash them...
   - They're all going to die.
   - Because of me.
   index: 0
   dialog: {fileID: 1338981493}
   bubble: {fileID: 0}
   dialogTwo: 0
+  heroSpeech: 0
 --- !u!4 &1881184677
 Transform:
   m_ObjectHideFlags: 0

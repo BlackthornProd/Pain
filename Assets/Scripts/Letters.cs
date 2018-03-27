@@ -27,7 +27,7 @@ public class Letters : MonoBehaviour {
 
 		if(index >= sentences.Length){// character can now move
 			player.canMove = true;
-			this.enabled = false;
+			this.gameObject.SetActive(false);
 
 			Debug.Log("jojojo");
 		

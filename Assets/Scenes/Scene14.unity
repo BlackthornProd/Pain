@@ -8882,16 +8882,22 @@ MonoBehaviour:
   - 'Whether you want it or not... your the big bad guy... '
   - 'My sole purpose is to rescue the princess... you don''t know what you''re saying
     ! Your just plain cruel ! '
+  - Nop, I'm not cruel... It's just a fact... We have our roles to play in this world,
+    defined, detailed, clear roles.
+  - So... so I play the role of the bloody killer ? The KILLER ? AM I the killer ?
+  - Well obviously... only found out now ?
+  - No... no... no
   - '...'
-  - And yes ! I will crush you !
+  - I'll CHOOSE MY OWN DESTINY ! I'M FREE, FREE TO DO WHATEVER I WANT !
   - '...'
-  - 'I KNOW WHO I AM ! AND I KNOW WHAT I WANT AND WHAT I MUST DO ! '
-  - '...'
-  - 'I CHOOSE to rescue the princess, and so I shall ! '
+  - 'I control my own fate ! I CHOOSE my own fate ! '
+  - Doesn't work like that...
+  - OOOO YES IT DOES ! I'll rescue the beautiful princess ! I WILL RESCUE HER !
   index: 0
   dialog: {fileID: 1320229490}
   bubble: {fileID: 1877991708}
   dialogTwo: 1
+  heroSpeech: 0
 --- !u!4 &1414932711
 Transform:
   m_ObjectHideFlags: 0

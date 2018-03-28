@@ -53,3 +53,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene16.unity
     guid: 85863a2c57ff3df40a4c48b6cc3aae23
+  - enabled: 1
+    path: Assets/Scenes/Scene17.unity
+    guid: b0c2fadd183b7cc48821d0cbda7c4b33
+  - enabled: 1
+    path: Assets/Scenes/Scene18.unity
+    guid: c9216e2e9e344e547ae4571f2b6515dd
+  - enabled: 1
+    path: Assets/Scenes/Scene19.unity
+    guid: 894faa361ac6092418e3bd5faddc6a6d
+  - enabled: 1
+    path: Assets/Scenes/Scene20.unity
+    guid: 015e088c79260b3409720bec097dbbaa
+  - enabled: 1
+    path: Assets/Scenes/Scene21.unity
+    guid: f2257b46b16fd95459bb411fb0306f89

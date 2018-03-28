@@ -13,8 +13,8 @@ public class Destruction : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 
-	if(other.CompareTag("Player")){
-			shake.Shake(0.25f, 0.25f);
+	if(other.CompareTag("Player") || other.CompareTag("Hero")){
+			shake.Shake(.55f, 0.25f);
 			Instantiate(deathEffect, transform.position, Quaternion.identity);
 			Destroy(gameObject);
 		}
